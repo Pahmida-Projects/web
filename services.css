@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(93, 170, 93);
+
+}
+.services{
+    display: flex;
+    gap: 15%;
+    border-radius: 1rem;
+    border-color: black;
+    align-items: center;
+    border-radius: 20%;
+    padding: 20px 0;
+    align-content: center;
+}

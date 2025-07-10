@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Crop Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="contact.html"> -->
+    <link rel="html" href="contact.html">
+    <link rel="html" href="services.html">
+</head>
+<body>
+    <header>
+        <h1>Agriculture Crop Information</h1>
+        <a href="contact.html" style="color: white;">CONTACT</a>&nbsp;&nbsp; &nbsp;
+        <a href="services.html" style="color: white;">SERVICES</a>
+    </header>
+
+    <main>
+        <section id="soil-types">
+            <h2>Select Soil Type</h2>
+            <button onclick="showCropInfo('sandy')">Sandy Soil</button>
+            <button onclick="showCropInfo('clay')">Clay Soil</button>
+            <button onclick="showCropInfo('loamy')">Loamy Soil</button>
+            <button onclick="showCropInfo('silty')">Silty Soil</button>
+            
+        </section>
+
+        <section id="crop-info" class="hidden">
+            <h2>Crop Information</h2>
+            <div id="info"></div>
+        </section>
+    </main>
+
+    <footer id="head" style="background-color: aqua;
+     border: 10%;">
+        <p>&copy; 2025 Agriculture Services. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
